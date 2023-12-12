@@ -1,0 +1,106 @@
+body {
+  background: #383333;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.search button img {
+  width: 16px;
+}
+.icons {
+  position: relative;
+  top: 20px;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  display: flex;
+  position: relative;
+  top: 30px;
+}
+.aircls {
+  width: 200px;
+}
+.aircls img {
+  width: 50px;
+  position: relative;
+  right: 70px;
+}
+
+.suncls {
+  position: relative;
+  left: 90px;
+  width: 200px;
+}
+
+.suncls img {
+  width: 50px;
+  position: relative;
+  right: 70px;
+}
+.detailone {
+  position: relative;
+  bottom: 55px;
+  font-size: 30px;
+}
+.detailmain {
+  position: relative;
+  font-size: 20px;
+  bottom: 55px;
+  left: 10px;
+}
+.detailtwo {
+  position: relative;
+  bottom: 55px;
+
+  font-size: 30px;
+}
+.detailmaintwo {
+  position: relative;
+  font-size: 20px;
+  bottom: 55px;
+  left: 17px;
+}
